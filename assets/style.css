@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: rgb(2, 2, 78);
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 150px;
+    
+}
+
+nav a {
+    color: white;
+    
+}
+
+main {
+    display: flex;
+    flex: 1 1 0;
+    max-width: 1200px;
+    margin: 2% auto;
+}
