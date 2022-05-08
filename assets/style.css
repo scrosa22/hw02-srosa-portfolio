@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    line-height: 1;
 }
 
 header {
@@ -14,19 +15,31 @@ header {
 
 nav ul {
     display: flex;
-    justify-content: space-between;
-    min-width: 150px;
+    justify-content: flex-end;
+    
+    
+    
     
 }
 
 nav a {
     color: white;
-    
+
+
 }
 
 main {
     display: flex;
-    flex: 1 1 0;
-    max-width: 1200px;
+    flex-direction: row;
     margin: 2% auto;
+}
+
+article {
+    flex: 1 1 auto;
+    padding-right: 5%;
+}
+
+h2 {
+
+    text-align: right;
 }
