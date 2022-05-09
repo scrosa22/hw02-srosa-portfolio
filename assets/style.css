@@ -36,6 +36,7 @@ body {
     display: flex;
     flex-direction: column;
     line-height: 1;
+    background-color: gray;
 }
 
 nav a {
@@ -111,7 +112,7 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-between;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .work-grid-container {
@@ -135,7 +136,7 @@ h2 {
 .work-item-project.surf-report {
     grid-column: 2 / span 2;
     grid-row: 1 / span 6;
-    background-image: url(./images/surf\ report\ image.jpg);
+    background-image: url("./images/surf\ report\ image.jpg");
     background-size: cover;
     display: flex;
     align-items: flex-end;
@@ -161,7 +162,7 @@ h2 {
 .work-item-project.calculator {
     grid-column: 2 / span 1;
     grid-row: 7 / span 3;
-    background-image: url(./images/calculator\ image.webp);
+    background-image: url(./images/calculator\ image.jpg);
     background-size: cover;
     display: flex;
     align-items: flex-end;
@@ -174,7 +175,7 @@ h2 {
 .work-item-project.puzzles {
     grid-column: 4 / span 1;
     grid-row: 1 / span 3;
-    background-image: url("");
+    background-image: url("./images/puzzles\ image.jpg");
     background-size: cover;
     display: flex;
     align-items: flex-end;
@@ -200,6 +201,14 @@ h2 {
 /* End Work Section */
 
 /* Start Footer and Contact section */
+footer {
+    background-color: darkblue;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
 
 .footer-container {
     display: flex;
